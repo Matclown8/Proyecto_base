@@ -53,6 +53,14 @@ public class Home_act extends AppCompatActivity {
         }
     }
 
+
+    public void Clases(View view)
+    {
+        Intent i = new Intent(this, Clases_act.class);
+        startActivity(i);
+
+    }
+
     public void Insumos (View view)
     {
 
