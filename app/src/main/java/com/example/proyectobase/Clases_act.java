@@ -33,7 +33,7 @@ public class Clases_act extends AppCompatActivity {
     public void guardarClase(View view)
     {
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "biofit", null, 1);
-        SQLiteDatabase db = admin.getWritableDatabase(); // Me permite sobrreescribir la database
+        SQLiteDatabase db = admin.getWritableDatabase(); // Me permite sobreescribir la database
 
         String codigo = code.getText().toString();
         String clases = clase.getText().toString();
